@@ -14,7 +14,7 @@
       <h3 class="home hide-menu" id="menu" onclick="menuBar()"><a href="#menu">Menu</a><span><i class="fa fa-bars icon"></i></span></h3>
       <div class="form-div">
         <form  class="search-form">
-          <input type="text" placeholder="Postcode or place name" />
+          <input type="text" placeholder="Student ID or place name" />
           <button type="submit">search</button>
         </form>
       </div>
@@ -64,11 +64,22 @@
       </div>
   </header>
   <section  class="section-container">
-    <div>
-      <h1>Check My Student ID</h1>
-      <div class="section-dev">
-        <p>heloo</p>
+      <h2 class="section-h1">Check My Student ID</h2>
+      <div class="section-div">
+          <form class="section-form">
+            <input type="text" placeholder="search for a student or place name"/>
+            <button class="section-button" type="submit">search</button>
+          </form>
+          <div class="section-locate">
+            <p> Or use your device's geolocation service to find student near you</p>
+            <button class="section-button" type="submit">Locate Me</button>
+          </div>
       </div>
+  </section>
+  <section>
+    <h1>Popular Students</h1>
+    <div>
+      
     </div>
   </section>
   <script src="./index.js"></script>

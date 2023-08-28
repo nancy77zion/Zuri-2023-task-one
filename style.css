@@ -9,7 +9,9 @@ body {
 }
 
 .fa-home {
-  font-size: 30px;
+  font-size: 25px;
+  color: #fff;
+  padding-right: 1rem;
 }
 
 header {
@@ -49,12 +51,11 @@ li {
   display: flex;
 }
 
-form input {
-  padding: 5px 5px;
+.search-form input {
   text-align: center;
 }
 
-form button {
+.search-form button {
   cursor: pointer;
   letter-spacing: 1px;
   padding: 10px 15px;
@@ -124,13 +125,50 @@ form button {
 .hide-menu {
   display: none;
 }
+
 .section-container {
-  width: 100%;
+  background-color: ;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 5px;
+ 
 }
-.section-div {
+.section-h1 {
+  margin-bottom: 1rem;
+  font-size: xx-large;
+}
+.section-div{
   background-color: #f9be88;
-  width: 85%;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid goldenrod;
+  padding: 2rem 2rem 3rem 2rem;
 }
+
+.section-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.section-form input{
+  width: 85%;
+  text-align: left;
+  padding: 0.7rem;
+}
+
+.section-button {
+  padding: 1rem 2rem;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.section-locate {
+  display: flex;
+  justify-content: space-evenly;
+} 
+
 
 
 @media screen and (max-width: 600px) {
